@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FEFED96-FE5B-47A9-830B-E93C5DBD49E1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ChefBot</RootNamespace>
+    <AssemblyName>ChefBot</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>chefbot_64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="LBIndustrialCtrls">
+      <HintPath>D:\0000.PRJ2022\017.국책과제_SystemRND\bsp\LBIndustrialCtrls.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite, Version=7.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.Sqlite.Core.7.0.2\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Xaml.Behaviors.Wpf.1.1.19\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="netchartdir, Version=6.4.0.0, Culture=neutral, PublicKeyToken=2db5fc05de12e204, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\netchartdir.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>packages\NLog.5.1.2\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.1.4.1835, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.bundle_e_sqlite3.2.1.4\lib\net461\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=2.1.4.1835, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.core.2.1.4\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.dynamic_cdecl, Version=2.1.4.1835, Culture=neutral, PublicKeyToken=b68184102cba0b3b, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.provider.dynamic_cdecl.2.1.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.117.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.117.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.Serialization.Primitives.4.3.0\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cores\Core_Adapter.cs" />
+    <Compile Include="Cores\Core_Robot.cs" />
+    <Compile Include="Cores\Core_StepModule.cs" />
+    <Compile Include="Cores\Core_BlackBox.cs" />
+    <Compile Include="Cores\Core_Data.cs" />
+    <Compile Include="Cores\Core_Function.cs" />
+    <Compile Include="Cores\Core_Object.cs" />
+    <Compile Include="Cores\Core_Program.cs" />
+    <Compile Include="Database\SQHourDB.cs" />
+    <Compile Include="Database\SQLiteDB.cs" />
+    <Compile Include="Database\SQMaintDB.cs" />
+    <Compile Include="Database\SQMechineDB.cs" />
+    <Compile Include="Database\SQProductDB.cs" />
+    <Compile Include="Define.cs" />
+    <Compile Include="Externs\Action_Loading.cs" />
+    <Compile Include="Cores\Fas_Data.cs" />
+    <Compile Include="Cores\Fas_Motion.cs" />
+    <Compile Include="Externs\ClsLogFile.cs" />
+    <Compile Include="Externs\LogUtil.cs" />
+    <Compile Include="Externs\Robot_Modbus_Table.cs" />
+    <Compile Include="Files\LIB_EziMOTIONPlusE.cs" />
+    <Compile Include="Externs\MOTION_DEFINE_PlusE.cs" />
+    <Compile Include="Files\Xml.cs" />
+    <Compile Include="Files\Xml_Serializer.cs" />
+    <Compile Include="Fonts\FontLibrary.cs" />
+    <Compile Include="Fonts\FontManager.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAlarm.Designer.cs">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDebug.Designer.cs">
+      <DependentUpon>FormDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormErrorBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormErrorBox.designer.cs">
+      <DependentUpon>FormErrorBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormExcute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormExcute.Designer.cs">
+      <DependentUpon>FormExcute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAborting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAborting.Designer.cs">
+      <DependentUpon>FormAborting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfigs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfigs.Designer.cs">
+      <DependentUpon>FormConfigs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDashBorad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDashBorad.Designer.cs">
+      <DependentUpon>FormDashBorad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDIO.Designer.cs">
+      <DependentUpon>FormDIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInfo.Designer.cs">
+      <DependentUpon>FormInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKeyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKeyboard.designer.cs">
+      <DependentUpon>FormKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKeypad.designer.cs">
+      <DependentUpon>FormKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLoading.Designer.cs">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMessageBox.designer.cs">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRobotBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRobotBus.Designer.cs">
+      <DependentUpon>FormRobotBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRobotEmc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRobotEmc.Designer.cs">
+      <DependentUpon>FormRobotEmc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSetCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSetCounter.Designer.cs">
+      <DependentUpon>FormSetCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSetTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSetTimer.Designer.cs">
+      <DependentUpon>FormSetTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPause.Designer.cs">
+      <DependentUpon>FormPause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSTL_Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSTL_Viewer.Designer.cs">
+      <DependentUpon>FormSTL_Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormXaxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormXaxis.Designer.cs">
+      <DependentUpon>FormXaxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PageMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PageMain.Designer.cs">
+      <DependentUpon>PageMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubPageChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SubPageChart.Designer.cs">
+      <DependentUpon>SubPageChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UcCooker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UcCooker.Designer.cs">
+      <DependentUpon>UcCooker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UcDashTitle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UcDashTitle.Designer.cs">
+      <DependentUpon>UcDashTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UcLoader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UcLoader.Designer.cs">
+      <DependentUpon>UcLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTutorial.Designer.cs">
+      <DependentUpon>FormTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Networks\MacAddressHelper.cs" />
+    <Compile Include="Networks\NetAsyncPing.cs" />
+    <Compile Include="Networks\NetFunc.cs" />
+    <Compile Include="Networks\NetSoket.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAlarm.resx">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDebug.resx">
+      <DependentUpon>FormDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormErrorBox.resx">
+      <DependentUpon>FormErrorBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormExcute.resx">
+      <DependentUpon>FormExcute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAborting.resx">
+      <DependentUpon>FormAborting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfigs.resx">
+      <DependentUpon>FormConfigs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDashBorad.resx">
+      <DependentUpon>FormDashBorad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDIO.resx">
+      <DependentUpon>FormDIO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInfo.resx">
+      <DependentUpon>FormInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKeyboard.resx">
+      <DependentUpon>FormKeyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKeypad.resx">
+      <DependentUpon>FormKeypad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLoading.resx">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMessageBox.resx">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRobotBus.resx">
+      <DependentUpon>FormRobotBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRobotEmc.resx">
+      <DependentUpon>FormRobotEmc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSetCounter.resx">
+      <DependentUpon>FormSetCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSetTimer.resx">
+      <DependentUpon>FormSetTimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPause.resx">
+      <DependentUpon>FormPause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSTL_Viewer.resx">
+      <DependentUpon>FormSTL_Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormXaxis.resx">
+      <DependentUpon>FormXaxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageMain.resx">
+      <DependentUpon>PageMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubPageChart.resx">
+      <DependentUpon>SubPageChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UcCooker.resx">
+      <DependentUpon>UcCooker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UcDashTitle.resx">
+      <DependentUpon>UcDashTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UcLoader.resx">
+      <DependentUpon>UcLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTutorial.resx">
+      <DependentUpon>FormTutorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Fonts\NotoMono-Regular.ttf" />
+    <None Include="Fonts\NotoSans-Black.ttf" />
+    <None Include="Fonts\NotoSans-BlackItalic.ttf" />
+    <None Include="Fonts\NotoSans-Bold.ttf" />
+    <None Include="Fonts\NotoSans-BoldItalic.ttf" />
+    <None Include="Fonts\NotoSans-ExtraBold.ttf" />
+    <None Include="Fonts\NotoSans-ExtraBoldItalic.ttf" />
+    <None Include="Fonts\NotoSans-ExtraLight.ttf" />
+    <None Include="Fonts\NotoSans-ExtraLightItalic.ttf" />
+    <None Include="Fonts\NotoSans-Italic.ttf" />
+    <None Include="Fonts\NotoSans-Light.ttf" />
+    <None Include="Fonts\NotoSans-LightItalic.ttf" />
+    <None Include="Fonts\NotoSans-Medium.ttf" />
+    <None Include="Fonts\NotoSans-MediumItalic.ttf" />
+    <None Include="Fonts\NotoSans-Regular.ttf" />
+    <None Include="Fonts\NotoSans-SemiBold.ttf" />
+    <None Include="Fonts\NotoSans-SemiBoldItalic.ttf" />
+    <None Include="Fonts\NotoSans-Thin.ttf" />
+    <None Include="Fonts\NotoSans-ThinItalic.ttf" />
+    <None Include="Fonts\Noto_Sans.zip" />
+    <EmbeddedResource Include="NLog.config" />
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chefbot_64.ico" />
+    <Content Include="Fonts\OFL.txt" />
+    <Content Include="Release_Note.txt" />
+    <None Include="Resources\laserscnner_error_ei.jpg" />
+    <None Include="Resources\Warning_of_industrial_robot..png" />
+    <None Include="Resources\laserscnner_error.jpg" />
+    <None Include="Images\img_loading.gif" />
+    <None Include="Images\InputLedBlue.jpg" />
+    <None Include="Images\OutputLedOragne.jpg" />
+    <None Include="Images\LED_Gray.png" />
+    <None Include="Images\Config\icons8-adjust-50.png" />
+    <None Include="Images\Config\icons8-conveyor-belt-50.png" />
+    <None Include="Images\Config\icons8-networking-manager-50.png" />
+    <None Include="Images\Config\icons8-option-50.png" />
+    <None Include="Images\Config\icons8-robot-arm-50.png" />
+    <None Include="Images\PageMain\Air Filter Status-64.png" />
+    <None Include="Images\PageMain\Chicken Status-64.png" />
+    <None Include="Images\PageMain\Day-48.png" />
+    <None Include="Images\PageMain\Fryer Status-64.png" />
+    <None Include="Images\PageMain\Maintenance-48.png" />
+    <None Include="Images\PageMain\Month-48.png" />
+    <None Include="Images\PageMain\Oil Status-64.png" />
+    <None Include="Images\PageMain\Operation Status-64.png" />
+    <None Include="Images\PageMain\Operation-48.png" />
+    <None Include="Images\PageMain\Time-48.png" />
+    <None Include="Images\PageMain\Week-48.png" />
+    <None Include="Images\FormMain\Main-48.png" />
+    <None Include="Images\FormMain\Alarm-48.png" />
+    <None Include="Images\FormMain\Auto Driving-32.png" />
+    <None Include="Images\FormMain\debug-48.png" />
+    <None Include="Images\FormMain\information-48.png" />
+    <None Include="Images\FormMain\Manual Driving-32.png" />
+    <None Include="Images\FormMain\Monitor-48.png" />
+    <None Include="Images\FormMain\Option-32.png" />
+    <None Include="Images\Exit-black-32.png" />
+    <None Include="Images\Exit-black-full-32.png" />
+    <None Include="Images\Exit-black-simple-32.png" />
+    <None Include="Images\Exit-blue-32.png" />
+    <None Include="Images\Exit-red-full-32.png" />
+    <None Include="Images\power-black-blue-32.png" />
+    <None Include="Images\FormDIO\FormDIO-IO-42.42.png" />
+    <None Include="Images\FormDIO\FormDIO-RobotIO-42.42.png" />
+    <None Include="Images\FormError-AlarmClear-50.50.png" />
+    <None Include="Images\FormError-Error-32.32.png" />
+    <None Include="Images\FormError-Fatal-32.32.png" />
+    <None Include="Images\FormError-Warning-32.32.png" />
+    <None Include="Images\FormMain-Top.png" />
+    <None Include="Images\FormExcute\FormExcute-Brown-L-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-Brown-R-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-DarkYellow-L-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-DarkYellow-R-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-empty-L-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-empty-R-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-Yellow-L-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute-Yellow-R-181.83.png" />
+    <None Include="Images\FormExcute\FormExcute_left_Y_Chicken.png" />
+    <None Include="Images\FormExcute\FormExcute_right_Y_Chicken.png" />
+    <None Include="Images\JDLOGO2.PNG" />
+    <Content Include="Inc\Chart\lib\netchartdir.dll" />
+    <Content Include="Inc\Chart\lib\netchartdir.xml" />
+    <Content Include="Inc\Chart\lib\README_LIB.TXT" />
+    <Content Include="Inc\Fastech_MotionLink\Include_x64\EziMOTIONPlusE.dll" />
+    <Content Include="Inc\Fastech_MotionLink\Include_x86\EziMOTIONPlusE.dll" />
+    <None Include="logos\Doosan Robotics_Partner_logo_light.jpg" />
+    <None Include="logos\Doosan Robotics_Partner_logo_lightblue.jpg" />
+    <None Include="logos\logo_jd.png" />
+    <Content Include="MetroFramework.txt" />
+    <None Include="Resources\gripper_open.JPG" />
+    <None Include="Resources\gripper_close.JPG" />
+    <None Include="Resources\only_gripper_open.JPG" />
+    <None Include="Resources\only_gripper_close.JPG" />
+    <None Include="Resources\JDLOGO2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

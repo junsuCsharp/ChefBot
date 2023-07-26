@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMainCounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainCounter>
+    <mainType>Chiken</mainType>
+    <iTotal>73721.6919187</iTotal>
+    <iMonth>73721.6919187</iMonth>
+    <iDays>73721.6919187</iDays>
+    <currTime>2023-07-18T13:40:35.1208449+09:00</currTime>
+    <prevTime>2023-07-18T13:40:35.1208449+09:00</prevTime>
+    <MonthTime>2023-08-10T14:12:53.3289886+09:00</MonthTime>
+    <DayTime>2023-07-19T13:39:53.1479669+09:00</DayTime>
+    <ProduceTime>2023-03-17T14:45:46.2272623+09:00</ProduceTime>
+    <ProduceM_Time>2023-07-18T13:40:35.4389879+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-07-18T13:40:35.4389879+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>Robot</mainType>
+    <iTotal>517922.2979187</iTotal>
+    <iMonth>517922.2979187</iMonth>
+    <iDays>73721.6919187</iDays>
+    <currTime>2023-07-18T13:40:35.1208449+09:00</currTime>
+    <prevTime>2023-07-18T13:40:35.1208449+09:00</prevTime>
+    <MonthTime>2023-08-12T13:48:33.2414383+09:00</MonthTime>
+    <DayTime>2023-07-19T13:39:53.1479669+09:00</DayTime>
+    <ProduceTime>2023-07-12T13:48:33.2414383+09:00</ProduceTime>
+    <ProduceM_Time>2023-07-18T13:40:35.4389879+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-07-18T13:40:35.4389879+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>OilChange</mainType>
+    <iTotal>613624.9449187</iTotal>
+    <iMonth>613624.9449187</iMonth>
+    <iDays>73721.6919187</iDays>
+    <currTime>2023-07-18T13:40:35.1208449+09:00</currTime>
+    <prevTime>2023-07-18T13:40:35.1208449+09:00</prevTime>
+    <MonthTime>2023-08-11T11:13:21.3350272+09:00</MonthTime>
+    <DayTime>2023-07-19T13:39:53.1479669+09:00</DayTime>
+    <ProduceTime>2023-07-11T11:13:21.3350272+09:00</ProduceTime>
+    <ProduceM_Time>2023-07-18T13:40:35.4389879+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-07-18T13:40:35.4389879+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>CookChange</mainType>
+    <iTotal>517918.20091869996</iTotal>
+    <iMonth>517918.20091869996</iMonth>
+    <iDays>73721.6919187</iDays>
+    <currTime>2023-07-18T13:40:35.1208449+09:00</currTime>
+    <prevTime>2023-07-18T13:40:35.1208449+09:00</prevTime>
+    <MonthTime>2023-08-12T13:48:37.3924596+09:00</MonthTime>
+    <DayTime>2023-07-19T13:39:53.1479669+09:00</DayTime>
+    <ProduceTime>2023-07-12T13:48:37.3924596+09:00</ProduceTime>
+    <ProduceM_Time>2023-07-18T13:40:35.4389879+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-07-18T13:40:35.4389879+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>AirFilter</mainType>
+    <iTotal>613624.9449187</iTotal>
+    <iMonth>613624.9449187</iMonth>
+    <iDays>73721.6919187</iDays>
+    <currTime>2023-07-18T13:40:35.1208449+09:00</currTime>
+    <prevTime>2023-07-18T13:40:35.1208449+09:00</prevTime>
+    <MonthTime>2023-08-11T11:13:30.4619384+09:00</MonthTime>
+    <DayTime>2023-07-19T13:39:53.1479669+09:00</DayTime>
+    <ProduceTime>2023-07-11T11:13:30.4619384+09:00</ProduceTime>
+    <ProduceM_Time>2023-07-18T13:40:35.4389879+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-07-18T13:40:35.4389879+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+</ArrayOfMainCounter>

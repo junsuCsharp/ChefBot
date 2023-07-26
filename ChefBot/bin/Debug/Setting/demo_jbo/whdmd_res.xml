@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfExChiken xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>0</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>1</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>2</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>3</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>4</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+  <exChiken>
+    <chickenType>Unknown</chickenType>
+    <chickenState>None</chickenState>
+    <dateTimeCooker>2023-03-17T14:16:28.5476282+09:00</dateTimeCooker>
+    <dateTimeCooking>2023-03-17T14:16:28.5476282+09:00</dateTimeCooking>
+    <dateTimeCooked>2023-03-17T14:16:28.5476282+09:00</dateTimeCooked>
+    <cookerIndex>5</cookerIndex>
+    <tsSetTime />
+    <tsCurTime />
+    <IsExist>false</IsExist>
+    <IsCookingForcSound>false</IsCookingForcSound>
+    <IsCookingCompSound>false</IsCookingCompSound>
+    <IsCookingRedySound>false</IsCookingRedySound>
+  </exChiken>
+</ArrayOfExChiken>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWinCharts", "NetCoreWinCharts\NetCoreWinCharts.csproj", "{C30C96E2-E350-4B03-BAB9-DE06B1AE3358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30C96E2-E350-4B03-BAB9-DE06B1AE3358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30C96E2-E350-4B03-BAB9-DE06B1AE3358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30C96E2-E350-4B03-BAB9-DE06B1AE3358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30C96E2-E350-4B03-BAB9-DE06B1AE3358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828656FC-24E0-43EF-96DD-8A7866D8616D}
+	EndGlobalSection
+EndGlobal

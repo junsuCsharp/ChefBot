@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\angry.png" />
+    <None Remove="Images\bg.png" />
+    <None Remove="Images\clock.png" />
+    <None Remove="Images\cloud.png" />
+    <None Remove="Images\computer.png" />
+    <None Remove="Images\doc.png" />
+    <None Remove="Images\gas.png" />
+    <None Remove="Images\laugh.png" />
+    <None Remove="Images\marble.png" />
+    <None Remove="Images\marble2.png" />
+    <None Remove="Images\marble3.png" />
+    <None Remove="Images\molecule.png" />
+    <None Remove="Images\nocomment.png" />
+    <None Remove="Images\rain.png" />
+    <None Remove="Images\robot1.png" />
+    <None Remove="Images\robot2.png" />
+    <None Remove="Images\robot3.png" />
+    <None Remove="Images\robot4.png" />
+    <None Remove="Images\robot5.png" />
+    <None Remove="Images\rock.png" />
+    <None Remove="Images\sad.png" />
+    <None Remove="Images\service.png" />
+    <None Remove="Images\small_computer.png" />
+    <None Remove="Images\small_molecule.png" />
+    <None Remove="Images\small_user.png" />
+    <None Remove="Images\smile.png" />
+    <None Remove="Images\snow.png" />
+    <None Remove="Images\snowy.png" />
+    <None Remove="Images\software.png" />
+    <None Remove="Images\star.png" />
+    <None Remove="Images\sun.png" />
+    <None Remove="Images\tile.png" />
+    <None Remove="Images\wood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\angry.png" />
+    <EmbeddedResource Include="Images\bg.png" />
+    <EmbeddedResource Include="Images\clock.png" />
+    <EmbeddedResource Include="Images\cloud.png" />
+    <EmbeddedResource Include="Images\computer.png" />
+    <EmbeddedResource Include="Images\doc.png" />
+    <EmbeddedResource Include="Images\gas.png" />
+    <EmbeddedResource Include="Images\laugh.png" />
+    <EmbeddedResource Include="Images\marble.png" />
+    <EmbeddedResource Include="Images\marble2.png" />
+    <EmbeddedResource Include="Images\marble3.png" />
+    <EmbeddedResource Include="Images\molecule.png" />
+    <EmbeddedResource Include="Images\nocomment.png" />
+    <EmbeddedResource Include="Images\rain.png" />
+    <EmbeddedResource Include="Images\robot1.png" />
+    <EmbeddedResource Include="Images\robot2.png" />
+    <EmbeddedResource Include="Images\robot3.png" />
+    <EmbeddedResource Include="Images\robot4.png" />
+    <EmbeddedResource Include="Images\robot5.png" />
+    <EmbeddedResource Include="Images\rock.png" />
+    <EmbeddedResource Include="Images\sad.png" />
+    <EmbeddedResource Include="Images\service.png" />
+    <EmbeddedResource Include="Images\small_computer.png" />
+    <EmbeddedResource Include="Images\small_molecule.png" />
+    <EmbeddedResource Include="Images\small_user.png" />
+    <EmbeddedResource Include="Images\smile.png" />
+    <EmbeddedResource Include="Images\snow.png" />
+    <EmbeddedResource Include="Images\snowy.png" />
+    <EmbeddedResource Include="Images\software.png" />
+    <EmbeddedResource Include="Images\star.png" />
+    <EmbeddedResource Include="Images\sun.png" />
+    <EmbeddedResource Include="Images\tile.png" />
+    <EmbeddedResource Include="Images\wood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChartDirector.Net" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

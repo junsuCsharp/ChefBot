@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Exit-blue-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Exit-blue-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Month-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Month-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormError-Error-32.32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormError-Error-32.32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Option-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Option-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LED_Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\LED_Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutputLedOragne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\OutputLedOragne.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Alarm-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-Brown-L-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-Brown-L-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="power-black-blue-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\power-black-blue-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-DarkYellow-L-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-DarkYellow-L-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-adjust-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Config\icons8-adjust-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operation-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Operation-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormError-Fatal-32.32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormError-Fatal-32.32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gripper_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gripper_open.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-DarkYellow-R-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-DarkYellow-R-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="only_gripper_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\only_gripper_open.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Time-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="only_gripper_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\only_gripper_close.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manual Driving-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Manual Driving-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maintenance-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Maintenance-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chicken Status-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Chicken Status-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Air Filter Status-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Air Filter Status-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDIO-IO-42.42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormDIO\FormDIO-IO-42.42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operation Status-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Operation Status-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-Yellow-L-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-Yellow-L-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Day-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Day-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oil Status-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Oil Status-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\img_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-robot-arm-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Config\icons8-robot-arm-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JDLOGO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JDLOGO2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="information-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\information-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-empty-R-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-empty-R-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doosan Robotics_Partner_logo_lightblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logos\Doosan Robotics_Partner_logo_lightblue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warning_of_industrial_robot." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning_of_industrial_robot..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormMain-Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain-Top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit-black-simple-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Exit-black-simple-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-option-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Config\icons8-option-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gripper_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gripper_close.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormError-Warning-32.32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormError-Warning-32.32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-Yellow-R-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-Yellow-R-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debug-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\debug-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fryer Status-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Fryer Status-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doosan Robotics_Partner_logo_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logos\Doosan Robotics_Partner_logo_light.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Main-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute_right_Y_Chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute_right_Y_Chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InputLedBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\InputLedBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit-black-full-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Exit-black-full-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laserscnner_error_ei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laserscnner_error_ei.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-conveyor-belt-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Config\icons8-conveyor-belt-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-Brown-R-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-Brown-R-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute-empty-L-181.83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute-empty-L-181.83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormExcute_left_Y_Chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormExcute\FormExcute_left_Y_Chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-networking-manager-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Config\icons8-networking-manager-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Auto Driving-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Auto Driving-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit-red-full-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Exit-red-full-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Week-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PageMain\Week-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormError-AlarmClear-50.50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormError-AlarmClear-50.50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit-black-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Exit-black-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JDLOGO21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\JDLOGO2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laserscnner_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laserscnner_error.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monitor-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormMain\Monitor-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDIO-RobotIO-42.42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FormDIO\FormDIO-RobotIO-42.42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_jd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logos\logo_jd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

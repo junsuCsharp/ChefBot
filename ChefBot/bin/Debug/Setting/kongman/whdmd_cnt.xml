@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMainCounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainCounter>
+    <mainType>Chiken</mainType>
+    <iTotal>6414.4406491</iTotal>
+    <iMonth>6414.4406491</iMonth>
+    <iDays>6414.4406491</iDays>
+    <currTime>2023-05-24T16:59:43.0661305+09:00</currTime>
+    <prevTime>2023-05-24T16:59:43.0661305+09:00</prevTime>
+    <MonthTime>2023-06-01T10:18:41.2776869+09:00</MonthTime>
+    <DayTime>2023-05-25T11:08:58.6384636+09:00</DayTime>
+    <ProduceTime>2023-03-17T14:45:46.2272623+09:00</ProduceTime>
+    <ProduceM_Time>2023-05-24T16:59:43.3529051+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-05-24T16:59:43.3529051+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>Robot</mainType>
+    <iTotal>696051.3416491</iTotal>
+    <iMonth>696052.76264909992</iMonth>
+    <iDays>74933.6116491</iDays>
+    <currTime>2023-05-24T16:59:43.0661305+09:00</currTime>
+    <prevTime>2023-05-24T16:59:43.0661305+09:00</prevTime>
+    <MonthTime>2023-06-16T15:36:29.6661885+09:00</MonthTime>
+    <DayTime>2023-05-25T11:08:58.6384636+09:00</DayTime>
+    <ProduceTime>2023-05-16T15:36:29.6661885+09:00</ProduceTime>
+    <ProduceM_Time>2023-05-24T16:59:43.3529051+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-05-24T16:59:43.3529051+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>OilChange</mainType>
+    <iTotal>696051.3416491</iTotal>
+    <iMonth>696052.7346491</iMonth>
+    <iDays>74933.6116491</iDays>
+    <currTime>2023-05-24T16:59:43.0661305+09:00</currTime>
+    <prevTime>2023-05-24T16:59:43.0661305+09:00</prevTime>
+    <MonthTime>2023-06-16T15:36:31.4941239+09:00</MonthTime>
+    <DayTime>2023-05-25T11:08:58.6384636+09:00</DayTime>
+    <ProduceTime>2023-05-16T15:36:31.4941239+09:00</ProduceTime>
+    <ProduceM_Time>2023-05-24T16:59:43.3529051+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-05-24T16:59:43.3529051+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>CookChange</mainType>
+    <iTotal>696051.3406491</iTotal>
+    <iMonth>696052.7146491</iMonth>
+    <iDays>74933.6116491</iDays>
+    <currTime>2023-05-24T16:59:43.0661305+09:00</currTime>
+    <prevTime>2023-05-24T16:59:43.0661305+09:00</prevTime>
+    <MonthTime>2023-06-16T15:36:32.8717564+09:00</MonthTime>
+    <DayTime>2023-05-25T11:08:58.6384636+09:00</DayTime>
+    <ProduceTime>2023-05-16T15:36:32.8717564+09:00</ProduceTime>
+    <ProduceM_Time>2023-05-24T16:59:43.3529051+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-05-24T16:59:43.3529051+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+  <MainCounter>
+    <mainType>AirFilter</mainType>
+    <iTotal>696051.3406491</iTotal>
+    <iMonth>696052.6926491</iMonth>
+    <iDays>74933.6116491</iDays>
+    <currTime>2023-05-24T16:59:43.0661305+09:00</currTime>
+    <prevTime>2023-05-24T16:59:43.0661305+09:00</prevTime>
+    <MonthTime>2023-06-16T15:36:34.4596108+09:00</MonthTime>
+    <DayTime>2023-05-25T11:08:58.6384636+09:00</DayTime>
+    <ProduceTime>2023-05-16T15:36:34.4596108+09:00</ProduceTime>
+    <ProduceM_Time>2023-05-24T16:59:43.3529051+09:00</ProduceM_Time>
+    <ProduceD_Time>2023-05-24T16:59:43.3529051+09:00</ProduceD_Time>
+    <tsTotal />
+    <tsMonth />
+    <tsDay />
+  </MainCounter>
+</ArrayOfMainCounter>

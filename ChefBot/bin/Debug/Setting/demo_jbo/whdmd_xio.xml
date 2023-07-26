@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DIO_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <iMaxIO>64</iMaxIO>
+  <InNames>
+    <string>01.DC24V SMPS CP</string>
+    <string>02.제어 Unit CP</string>
+    <string>03.Blow FAN CP</string>
+    <string>04.Cobot 전원 컨트롤러 CP</string>
+    <string>05.Xaxis Servo Driver 주전원 CP</string>
+    <string>06.Cobot 전원 컨트롤러_X axis Servp Drove 주전원 MC</string>
+    <string>07.비어있음</string>
+    <string>08.비어있음</string>
+    <string>09.비어있음</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.비어있음</string>
+    <string>13.비어있음</string>
+    <string>14.비어있음</string>
+    <string>15.전장함 왼쪽 도어 열림 감지 센서</string>
+    <string>16.전장함 오른쪽 도어 열림 감지 센서</string>
+    <string>01.로더/언로더 스위치 [1]</string>
+    <string>02.로더/언로더 스위치 [2]</string>
+    <string>03.로더/언로더 스위치 [3]</string>
+    <string>04.비어있음</string>
+    <string>05.비어있음</string>
+    <string>06.비어있음</string>
+    <string>07.바스켓 감지 근접 센서 [1] ( 로더 / 언로더 [A])</string>
+    <string>08.바스켓 감지 근접 센서 [2] ( 로더 / 언로더 [B])</string>
+    <string>09.바스켓 감지 근접 센서 [3] ( 로더 / 언로더 [C])</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.비어있음</string>
+    <string>13.비어있음</string>
+    <string>14.X-Axis Servo Drive ( OUT1 )//사용안함</string>
+    <string>15.비어있음</string>
+    <string>16.비어있음</string>
+    <string>01.EMO 버튼 1 비상 정지 상태</string>
+    <string>02.EMO 버튼 2 비상 정지 상태</string>
+    <string>03.비어있음</string>
+    <string>04.레이져 스캐너 1(에러)</string>
+    <string>05.레이져 스캐너 2(알람)</string>
+    <string>06.레이져 스캐너 3(OSSD 상태)</string>
+    <string>07.레이져 스캐너 4(보호영역검출)</string>
+    <string>08.레이져 스캐너 5(경고영역검출)</string>
+    <string>09.레이져 스캐너 6(구동상태)</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.안전 컨트롤러 1(구동상태)</string>
+    <string>13.안전 컨트롤러 2(전원불량)</string>
+    <string>14.안전 컨트롤러 3(배선불량)</string>
+    <string>15.안전 컨트롤러 4(신호불량)</string>
+    <string>16.비어있음</string>
+    <string>01.협동로봇 비상 정지</string>
+    <string>02.협동로봇 비상 정지 </string>
+    <string>03.협동로봇 비정상</string>
+    <string>04.협동로봇 비정상</string>
+    <string>05.협동로봇 안전 토크 오프 </string>
+    <string>06.협동로봇 안전 작동 정지 </string>
+    <string>07.협동로봇 원격 제어 모드</string>
+    <string>08.협동로봇 수동 모드</string>    
+    <string>09.협동로봇 태스크 동작 </string>
+    <string>10.협동로봇 로봇 모션 동작 중</string>
+    <string>11.협동로봇 홈위치 이동 완료</string>
+    <string>12.비어있음</string>
+    <string>13.협동로봇 기본 작업 구역</string>
+    <string>14.협동로봇 협동 작업 구역</string>
+    <string>15.협동로봇 충돌 보호 구역</string>
+	<string>16.협동로봇 명령 실행 완료</string>
+  </InNames>
+  <OutNames>
+    <string>01.비어있음</string>
+    <string>02.비어있음</string>
+    <string>03.비어있음</string>
+    <string>04.비어있음</string>
+    <string>05.비어있음</string>
+    <string>06.비어있음</string>
+    <string>07.비어있음</string>
+    <string>08.비어있음</string>
+    <string>09.비어있음</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.비어있음</string>
+    <string>13.협동로봇 전원</string>
+    <string>14.단축 로봇 서보 드라이브 전원</string>
+    <string>15.비어있음</string>
+    <string>16.비어있음</string>
+    <string>01.로더/언로더 스위치 램프[1]</string>
+    <string>02.로더/언로더 스위치 램프[2]</string>
+    <string>03.로더/언로더 스위치 램프[3]</string>
+    <string>04.비어있음</string>
+    <string>05.비어있음</string>
+    <string>06.비어있음</string>
+    <string>07.비어있음</string>
+    <string>08.비어있음</string>
+    <string>09.비어있음</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.비어있음</string>
+    <string>13.비어있음</string>
+    <string>14.X-Axis Servo Drive ( IN1 )//사용안함</string>
+    <string>15.비어있음</string>
+    <string>16.비어있음</string>
+    <string>01.비어있음</string>
+    <string>02.비어있음</string>
+    <string>03.비어있음</string>
+    <string>04.안전 레이져 스캐너 리셋 1/2</string>
+    <string>05.안전 레이져 스캐너 리셋 3/4</string>
+    <string>06.안전 레이져 스캐너 이디엠 1/2</string>
+    <string>07.안전 레이져 스캐너 이디엠 3/4</string>
+    <string>08.안전 레이져 스캐너 뱅크 A</string>
+    <string>09.안전 레이져 스캐너 뱅크 a</string>
+    <string>10.비어있음</string>
+    <string>11.비어있음</string>
+    <string>12.안전 컨트롤러 리셋</string>
+    <string>13.안전 컨트롤러 미사용</string>
+    <string>14.비어있음</string>
+    <string>15.비어있음</string>
+    <string>16.비어있음</string>
+    <string>01.협동로봇 원격제어 활성화 	             </string>
+    <string>02.협동로봇 원격제어 활성화 	             </string>
+    <string>03.협동로봇 연동장치 리셋	  	         </string>
+    <string>04.협동로봇 연동장치 리셋	  	         </string>
+    <string>05.협동로봇 태스크 시작	  	         </string>
+    <string>06.협동로봇 태스크 일시 정지	(Active Low) </string>
+    <string>07.협동로봇 태스크 중지	(Active Low) </string>
+    <string>08.협동로봇 태스크 재개			     </string>
+    <string>09.협동로봇 서보 온				     </string>
+    <string>10.협동로봇 동작 명령</string>
+    <string>11.비어있음</string>    
+    <string>12.비어있음</string>
+    <string>13.핸드 가이드 종료</string>
+    <string>14.핸드 가이드 종료</string>
+    <string>15.핸드 가이드 시작</string>
+	<string>16.핸드 가이드 시작</string>
+  </OutNames>
+  <InLabels>
+    <string>X1000</string>
+    <string>X1001</string>
+    <string>X1002</string>
+    <string>X1003</string>
+    <string>X1004</string>
+    <string>X1005</string>
+    <string>X1006</string>
+    <string>X1007</string>
+    <string>X1008</string>
+    <string>X1009</string>
+    <string>X100A</string>
+    <string>X100B</string>
+    <string>X100C</string>
+    <string>X100D</string>
+    <string>X100E</string>
+    <string>X100F</string>
+    <string>X2000</string>
+    <string>X2001</string>
+    <string>X2002</string>
+    <string>X2003</string>
+    <string>X2004</string>
+    <string>X2005</string>
+    <string>X2006</string>
+    <string>X2007</string>
+    <string>X2008</string>
+    <string>X2009</string>
+    <string>X200A</string>
+    <string>X200B</string>
+    <string>X200C</string>
+    <string>X200D</string>
+    <string>X200E</string>
+    <string>X200F</string>
+    <string>X3000</string>
+    <string>X3001</string>
+    <string>X3002</string>
+    <string>X3003</string>
+    <string>X3004</string>
+    <string>X3005</string>
+    <string>X3006</string>
+    <string>X3007</string>
+    <string>X3008</string>
+    <string>X3009</string>
+    <string>X300A</string>
+    <string>X300B</string>
+    <string>X300C</string>
+    <string>X300D</string>
+    <string>X300E</string>
+    <string>X300F</string>
+    <string>X4000</string>
+    <string>X4001</string>
+    <string>X4002</string>
+    <string>X4003</string>
+    <string>X4004</string>
+    <string>X4005</string>
+    <string>X4006</string>
+    <string>X4007</string>
+    <string>X4008</string>
+    <string>X4009</string>
+    <string>X400A</string>
+    <string>X400B</string>
+    <string>X400C</string>
+    <string>X400D</string>
+    <string>X400E</string>
+    <string>X400F</string>
+  </InLabels>
+  <OutLabels>
+    <string>Y1000</string>
+    <string>Y1001</string>
+    <string>Y1002</string>
+    <string>Y1003</string>
+    <string>Y1004</string>
+    <string>Y1005</string>
+    <string>Y1006</string>
+    <string>Y1007</string>
+    <string>Y1008</string>
+    <string>Y1009</string>
+    <string>Y100A</string>
+    <string>Y100B</string>
+    <string>Y100C</string>
+    <string>Y100D</string>
+    <string>Y100E</string>
+    <string>Y100F</string>
+    <string>Y2000</string>
+    <string>Y2001</string>
+    <string>Y2002</string>
+    <string>Y2003</string>
+    <string>Y2004</string>
+    <string>Y2005</string>
+    <string>Y2006</string>
+    <string>Y2007</string>
+    <string>Y2008</string>
+    <string>Y2009</string>
+    <string>Y200A</string>
+    <string>Y200B</string>
+    <string>Y200C</string>
+    <string>Y200D</string>
+    <string>Y200E</string>
+    <string>Y200F</string>
+    <string>Y3000</string>
+    <string>Y3001</string>
+    <string>Y3002</string>
+    <string>Y3003</string>
+    <string>Y3004</string>
+    <string>Y3005</string>
+    <string>Y3006</string>
+    <string>Y3007</string>
+    <string>Y3008</string>
+    <string>Y3009</string>
+    <string>Y300A</string>
+    <string>Y300B</string>
+    <string>Y300C</string>
+    <string>Y300D</string>
+    <string>Y300E</string>
+    <string>Y300F</string>
+    <string>Y4000</string>
+    <string>Y4001</string>
+    <string>Y4002</string>
+    <string>Y4003</string>
+    <string>Y4004</string>
+    <string>Y4005</string>
+    <string>Y4006</string>
+    <string>Y4007</string>
+    <string>Y4008</string>
+    <string>Y4009</string>
+    <string>Y400A</string>
+    <string>Y400B</string>
+    <string>Y400C</string>
+    <string>Y400D</string>
+    <string>Y400E</string>
+    <string>Y400F</string>
+  </OutLabels>
+</DIO_File>

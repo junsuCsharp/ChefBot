@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pos_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <iMaxPosition>10</iMaxPosition>
+  <lstPositions>
+    <int>182000</int>
+    <int>0</int>
+    <int>0</int>
+    <int>182000</int>
+    <int>724000</int>
+    <int>1096000</int>
+    <int>1634000</int>
+    <int>2006000</int>
+    <int>2546000</int>
+    <int>2640000</int>
+  </lstPositions>
+  <lstRealPositions>
+    <double>91</double>
+    <double>0</double>
+    <double>0</double>
+    <double>91</double>
+    <double>362</double>
+    <double>548</double>
+    <double>817</double>
+    <double>1003</double>
+    <double>1273</double>
+    <double>1320</double>
+  </lstRealPositions>
+  <iPlusLimit>1000</iPlusLimit>
+  <iMinusLimit>-200</iMinusLimit>
+  <dPlusLimitPos>0</dPlusLimitPos>
+  <dMinusLimitPos>0</dMinusLimitPos>
+  <strXposNames>
+    <string>X-Axis Teaching Position 01 ( Wait   Unit 0 )</string>
+    <string>X-Axis Teaching Position 02 ( Loader Unit 1 )</string>
+    <string>X-Axis Teaching Position 03 ( Loader Unit 2 )</string>
+    <string>X-Axis Teaching Position 04 ( Loader Unit 3 )</string>
+    <string>X-Axis Teaching Position 05 ( Flyer  Unit 1 )</string>
+    <string>X-Axis Teaching Position 06 ( Flyer  Unit 2 )</string>
+    <string>X-Axis Teaching Position 07 ( Flyer  Unit 3 )</string>
+    <string>X-Axis Teaching Position 08 ( Flyer  Unit 4 )</string>
+    <string>X-Axis Teaching Position 09 ( Flyer  Unit 5 )</string>
+    <string>X-Axis Teaching Position 10 ( Flyer  Unit 6 )</string>
+  </strXposNames>
+  <strXposRanges>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+    <string>-10 ~ 1600</string>
+  </strXposRanges>
+  <strXposUnit>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+    <string>mm</string>
+  </strXposUnit>
+</Pos_File>

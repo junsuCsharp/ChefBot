@@ -1,0 +1,46 @@
+09:35:04.894 | INFO  | Project_Main.FormMain | Form1_Load | Database Init |
+09:35:04.926 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Stopped |
+09:35:04.926 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : False | 012.0000ms |
+09:35:25.936 | INFO  | Project_Main.FormMain | Form1_Load | Object Init |
+09:35:25.970 | INFO  | Forms.FormConfigs | .ctor |
+09:35:25.970 | INFO  | Forms.FormExcute | .ctor |
+09:35:26.019 | INFO  | Forms.FormDIO | .ctor |
+09:35:26.035 | INFO  | Cores.Core_Object | Run | eGripper ZIMMER |
+09:35:26.035 | INFO  | Cores.Core_Object | Run | eCUSTOM Demo |
+09:35:26.035 | INFO  | Forms.FormInfo | .ctor |
+09:35:26.035 | INFO  | Forms.FormAlarm | .ctor |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  5.23:52:02.2980000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  5.23:52:02.2980000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  20:28:41.6920000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  7.02:27:04.9450000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  7.02:27:04.9450000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  20:28:41.6920000 |
+09:35:26.106 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  5.23:51:58.2010000 |
+09:35:26.110 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  5.23:51:58.2010000 |
+09:35:26.110 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  20:28:41.6920000 |
+09:35:26.110 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  7.02:27:04.9450000 |
+09:35:26.110 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  7.02:27:04.9450000 |
+09:35:26.110 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  20:28:41.6920000 |
+09:35:26.110 | FATAL | Cores.Core_Object | Run | ROBOT : DOOSAN | IP : 192.168.0.110 | IsConnectFasMotion : False |
+09:35:26.350 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.105 | IsConnectFasMotion : False |
+09:35:26.553 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.106 | IsConnectFasMotion : False |
+09:35:26.755 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.107 | IsConnectFasMotion : False |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | Display Init |
+09:35:26.912 | INFO  | Project_Main.FormMain | radioButton5_CheckedChanged | Event(RB) DashBoard |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | List Button Init |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | GUI Init |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | Timer Worker |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | Default Location |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | Load Complted |
+09:35:26.912 | INFO  | Project_Main.FormMain | asyncPingCheck |
+09:35:26.912 | INFO  | Project_Main.FormMain | Form1_Load | Console Init |
+09:35:26.925 | INFO  | Project_Main.FormMain | DatabaseRead | m_CobotDB Database Delete ::: True |
+09:35:26.925 | INFO  | Project_Main.FormMain | DatabaseRead | m_MaintDB Database Delete ::: True |
+09:35:26.959 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.108 | IsConnectFasMotion : False |
+09:35:27.162 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.109 | IsConnectFasMotion : False |
+09:35:27.482 | WARN  | Project_Main.FormMain |                              Work_DateTime | 23139.4208ms |
+09:35:49.386 | WARN  | Cores.Core_Object | | ETHERNET | 네트워크 알람| Low |
+09:35:49.392 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.2088ms |
+09:35:49.691 | INFO  | Forms.FormErrorBox | .ctor |
+09:36:11.609 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22216.9895ms |
+09:36:33.826 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22217.3842ms |

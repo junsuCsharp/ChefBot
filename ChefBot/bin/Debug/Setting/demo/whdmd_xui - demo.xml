@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gui_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <strName>
+    <string>Load A</string>
+    <string>Load B</string>
+    <string>UnLoad C</string>
+    <string>Cooker 1-1</string>
+    <string>Cooker 1-2</string>
+    <string>Cooker 2-1</string>
+    <string>Cooker 2-2</string>
+    <string>Cooker 3-1</string>
+    <string>Cooker 3-2</string>
+  </strName>
+  <iSetMin>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </iSetMin>
+  <iSetSec>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </iSetSec>
+  <type>
+    <ModuleType>Load</ModuleType>
+    <ModuleType>Load</ModuleType>
+    <ModuleType>UnLoad</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+    <ModuleType>Cooker</ModuleType>
+  </type>
+</Gui_File>

@@ -1,0 +1,526 @@
+16:32:51.290 | INFO  | Project_Main.FormMain | Form1_Load | Database Init |
+16:32:51.320 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Stopped |
+16:32:51.320 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : False | 013.0000ms |
+16:33:12.344 | INFO  | Project_Main.FormMain | Form1_Load | Object Init |
+16:33:12.414 | INFO  | Forms.FormConfigs | .ctor |
+16:33:12.438 | INFO  | Forms.FormExcute | .ctor |
+16:33:12.483 | INFO  | Forms.FormDIO | .ctor |
+16:33:12.532 | INFO  | Forms.FormInfo | .ctor |
+16:33:12.532 | INFO  | Forms.FormAlarm | .ctor |
+16:33:12.761 | FATAL | Cores.Core_Object | Run | ROBOT : DOOSAN | IP : 192.168.0.110 | IsConnectFasMotion : False |
+16:33:12.996 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.105 | IsConnectFasMotion : False |
+16:33:13.198 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.106 | IsConnectFasMotion : False |
+16:33:13.400 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.107 | IsConnectFasMotion : False |
+16:33:13.603 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.108 | IsConnectFasMotion : False |
+16:33:13.809 | FATAL | Cores.Core_Object | Run | FASTECH ::: Function(FAS_GetSlaveInfo) was failed. | IP : 192.168.0.109 | IsConnectFasMotion : False |
+16:33:14.318 | INFO  | Project_Main.FormMain | Form1_Load | Display Init |
+16:33:14.318 | INFO  | Project_Main.FormMain | radioButton5_CheckedChanged | Event(RB) DashBoard |
+16:33:14.318 | INFO  | Project_Main.FormMain | Form1_Load | List Button Init |
+16:33:14.328 | INFO  | Project_Main.FormMain | Form1_Load | GUI Init |
+16:33:14.328 | INFO  | Project_Main.FormMain | Form1_Load | Timer Worker |
+16:33:14.328 | INFO  | Project_Main.FormMain | Form1_Load | Default Location |
+16:33:14.328 | INFO  | Project_Main.FormMain | Form1_Load | Load Complted |
+16:33:14.328 | INFO  | Project_Main.FormMain | asyncPingCheck |
+16:33:14.341 | INFO  | Project_Main.FormMain | Form1_Load | Console Init |
+16:33:14.946 | WARN  | Project_Main.FormMain |                              Work_DateTime | 24716.3500ms |
+16:33:36.877 | WARN  | Project_Main.FormMain |                              Work_DateTime | 7355.0401ms |
+16:33:40.366 | WARN  | Project_Main.FormMain |                              Work_DateTime | 3489.0621ms |
+16:33:49.710 | WARN  | Project_Main.FormMain |                              Work_DateTime | 9344.1092ms |
+16:33:52.253 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2542.8599ms |
+16:33:56.569 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 27273.1558ms |
+16:33:56.601 | WARN  | Project_Main.FormMain |                              Work_DateTime | 4348.6139ms |
+16:41:10.438 | WARN  | Project_Main.FormMain |                              Work_DateTime | 433836.4004ms |
+16:41:10.585 | WARN  | Cores.Core_Object | | ETHERNET | 네트워크 알람| Low |
+16:41:10.590 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 476777.9100ms |
+16:41:10.946 | INFO  | Forms.FormErrorBox | .ctor |
+16:41:12.795 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 436226.1746ms |
+16:41:32.801 | WARN  | Project_Main.FormMain |                              Work_DateTime | 7728.1764ms |
+16:41:35.046 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2245.7812ms |
+16:41:36.781 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1734.4516ms |
+16:41:38.972 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 14178.2963ms |
+16:41:39.007 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2226.1325ms |
+16:41:42.290 | WARN  | Project_Main.FormMain |                              Work_DateTime | 3283.2351ms |
+16:41:44.443 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2152.6938ms |
+16:42:57.507 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 106915.3279ms |
+16:42:57.565 | WARN  | Project_Main.FormMain |                              Work_DateTime | 73121.7744ms |
+16:43:00.936 | WARN  | Project_Main.FormMain |                              Work_DateTime | 3371.7283ms |
+16:43:02.747 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 83773.6190ms |
+16:43:02.779 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1842.1913ms |
+16:43:22.457 | WARN  | Project_Main.FormMain |                              Work_DateTime | 19677.3783ms |
+16:43:24.113 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1657.3584ms |
+16:43:25.088 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 27582.7124ms |
+16:43:25.794 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 23048.6522ms |
+16:43:47.314 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.6584ms |
+16:43:59.318 | WARN  | Project_Main.FormMain |                              Work_DateTime | 11991.9894ms |
+16:44:01.759 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2440.6476ms |
+16:44:03.624 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1866.7610ms |
+16:44:05.800 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 19004.8592ms |
+16:44:05.835 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2210.7819ms |
+16:44:07.271 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1435.7223ms |
+16:44:08.825 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1554.4963ms |
+16:44:12.865 | WARN  | Project_Main.FormMain |                              Work_DateTime | 4038.0998ms |
+16:44:22.164 | WARN  | Project_Main.FormMain |                              Work_DateTime | 9300.4122ms |
+16:44:22.295 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 16495.2861ms |
+16:44:22.930 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 35615.9824ms |
+16:44:45.156 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9037ms |
+16:45:07.380 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.7700ms |
+16:45:29.612 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.4145ms |
+16:45:51.842 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.5770ms |
+16:46:14.068 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5500ms |
+16:46:36.301 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.8442ms |
+16:46:58.527 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.0164ms |
+16:47:20.750 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5017ms |
+16:47:42.976 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.6045ms |
+16:48:05.206 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.6244ms |
+16:48:27.431 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.6204ms |
+16:48:49.654 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.1264ms |
+16:49:11.877 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.4210ms |
+16:49:34.106 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.7587ms |
+16:49:56.328 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.3326ms |
+16:50:18.553 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.0064ms |
+16:50:40.779 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.7738ms |
+16:51:03.003 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5310ms |
+16:51:25.228 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.1298ms |
+16:51:47.457 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.7733ms |
+16:52:09.682 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.8548ms |
+16:52:31.923 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22239.6857ms |
+16:52:54.150 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8628ms |
+16:53:16.375 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.8687ms |
+16:53:38.604 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.7058ms |
+16:54:00.831 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.1048ms |
+16:54:23.062 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.5619ms |
+16:54:45.285 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.9251ms |
+16:55:07.509 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5801ms |
+16:55:29.733 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.5844ms |
+16:55:51.956 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.5836ms |
+16:56:14.178 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5849ms |
+16:56:36.403 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5828ms |
+16:56:58.628 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5764ms |
+16:57:20.860 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.0793ms |
+16:57:43.088 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2495ms |
+16:58:05.314 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.4788ms |
+16:58:27.545 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.6486ms |
+16:58:49.767 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4111ms |
+16:59:11.997 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.1230ms |
+16:59:34.222 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9554ms |
+16:59:56.452 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.2379ms |
+17:00:18.684 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.4976ms |
+17:00:40.909 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9331ms |
+17:01:03.137 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.1696ms |
+17:01:25.362 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9844ms |
+17:01:47.587 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5533ms |
+17:02:09.814 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5728ms |
+17:02:32.039 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5810ms |
+17:02:54.269 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.5647ms |
+17:03:16.495 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5819ms |
+17:03:38.723 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5691ms |
+17:04:00.949 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5781ms |
+17:04:23.172 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.2494ms |
+17:04:45.416 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22244.3380ms |
+17:05:07.648 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.7605ms |
+17:05:29.879 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.0601ms |
+17:05:52.104 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2938ms |
+17:06:14.332 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.7055ms |
+17:06:36.559 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5191ms |
+17:06:58.785 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.8336ms |
+17:07:21.014 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.0985ms |
+17:07:43.240 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.7472ms |
+17:08:05.468 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.1103ms |
+17:08:27.703 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.4473ms |
+17:08:49.928 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5314ms |
+17:09:12.167 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22239.0943ms |
+17:09:34.388 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.9166ms |
+17:09:56.616 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8800ms |
+17:10:18.838 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.2552ms |
+17:10:41.080 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22241.6029ms |
+17:11:03.307 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.7233ms |
+17:11:25.554 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22247.8288ms |
+17:11:47.775 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.1655ms |
+17:12:10.003 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.7371ms |
+17:12:32.232 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.6255ms |
+17:12:54.470 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.9505ms |
+17:13:16.692 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.6389ms |
+17:13:38.918 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5202ms |
+17:14:01.143 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2544ms |
+17:14:20.342 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 7048.7061ms |
+17:14:20.357 | WARN  | Project_Main.FormMain |                              Work_DateTime | 5922.4553ms |
+17:14:21.732 | WARN  | Project_Main.FormMain |                              Work_DateTime | 1374.5193ms |
+17:14:26.346 | WARN  | Project_Main.FormMain |                              Work_DateTime | 4614.4015ms |
+17:16:53.850 | WARN  | Project_Main.FormMain |                              Work_DateTime | 147503.4904ms |
+17:16:53.850 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 153507.3499ms |
+17:16:57.089 | WARN  | Project_Main.FormMain |                              Work_DateTime | 3239.5005ms |
+17:16:57.275 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 176131.5237ms |
+17:16:59.295 | WARN  | Project_Main.FormMain |                  asyncPingCheck | asyncTime 5445.1845ms |
+17:17:19.502 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.7791ms |
+17:17:41.727 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.8005ms |
+17:18:03.949 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.3685ms |
+17:18:26.174 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9356ms |
+17:18:48.400 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.9808ms |
+17:19:10.630 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.3525ms |
+17:19:32.853 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.3782ms |
+17:19:55.079 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5932ms |
+17:20:17.305 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1236ms |
+17:20:39.530 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.6116ms |
+17:21:01.757 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.4082ms |
+17:21:24.000 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22242.7422ms |
+17:21:46.226 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.4910ms |
+17:22:08.451 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5985ms |
+17:22:30.681 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.5693ms |
+17:22:52.906 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2474ms |
+17:23:15.132 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9636ms |
+17:23:37.357 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2550ms |
+17:23:59.599 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22243.1471ms |
+17:24:21.836 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.5717ms |
+17:24:44.076 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22239.1494ms |
+17:25:06.322 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22247.2573ms |
+17:25:28.552 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.5953ms |
+17:25:50.774 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.6759ms |
+17:26:13.001 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.7705ms |
+17:26:35.223 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.3955ms |
+17:26:57.449 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9220ms |
+17:27:19.672 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.0042ms |
+17:27:41.899 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.4803ms |
+17:28:04.127 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.7479ms |
+17:28:26.353 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.0841ms |
+17:28:48.576 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0029ms |
+17:29:10.818 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22242.2660ms |
+17:29:33.068 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22250.5786ms |
+17:29:55.295 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4368ms |
+17:30:17.516 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.0631ms |
+17:30:39.744 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.6829ms |
+17:31:01.967 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.7329ms |
+17:31:24.192 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.4204ms |
+17:31:46.412 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.1758ms |
+17:32:08.638 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.3269ms |
+17:32:30.866 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.9328ms |
+17:32:53.093 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.3067ms |
+17:33:15.328 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.1887ms |
+17:33:37.564 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.6711ms |
+17:33:59.789 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2899ms |
+17:34:22.019 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.0176ms |
+17:34:44.241 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.2766ms |
+17:35:06.466 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2874ms |
+17:35:28.690 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.6540ms |
+17:35:50.912 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.3268ms |
+17:36:13.134 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.8990ms |
+17:36:35.360 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9804ms |
+17:36:57.593 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.2460ms |
+17:37:19.825 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.9990ms |
+17:37:42.060 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.9809ms |
+17:38:04.291 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.8829ms |
+17:38:26.517 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5398ms |
+17:38:48.749 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.0093ms |
+17:39:10.977 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5765ms |
+17:39:33.206 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.4689ms |
+17:39:55.435 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.7610ms |
+17:40:17.664 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.7690ms |
+17:40:39.890 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2182ms |
+17:41:02.120 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.1031ms |
+17:41:24.346 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4019ms |
+17:41:46.577 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.0767ms |
+17:42:08.808 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4863ms |
+17:42:31.036 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2210ms |
+17:42:53.265 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.5864ms |
+17:43:15.489 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.4381ms |
+17:43:37.714 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.1646ms |
+17:43:59.961 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22246.9343ms |
+17:44:22.189 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.9810ms |
+17:44:44.417 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8535ms |
+17:45:06.643 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.6341ms |
+17:45:28.871 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4942ms |
+17:45:51.098 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.7461ms |
+17:46:13.338 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22240.7853ms |
+17:46:35.575 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22237.0206ms |
+17:46:57.805 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4784ms |
+17:47:20.028 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.3496ms |
+17:47:42.256 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.2107ms |
+17:48:04.483 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.4687ms |
+17:48:26.709 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.8411ms |
+17:48:48.937 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8404ms |
+17:49:11.167 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.2632ms |
+17:49:33.403 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.6480ms |
+17:49:55.636 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.0864ms |
+17:50:17.858 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4967ms |
+17:50:40.083 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.3601ms |
+17:51:02.309 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.3167ms |
+17:51:24.532 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4287ms |
+17:51:46.761 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.8215ms |
+17:52:08.986 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2551ms |
+17:52:31.210 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.0517ms |
+17:52:53.447 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.3800ms |
+17:53:15.671 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2231ms |
+17:53:37.893 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.6140ms |
+17:54:00.122 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.4442ms |
+17:54:22.350 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.1240ms |
+17:54:44.581 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.4965ms |
+17:55:06.812 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.3724ms |
+17:55:29.035 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.7708ms |
+17:55:51.253 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22218.4062ms |
+17:56:13.484 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.7119ms |
+17:56:35.712 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2948ms |
+17:56:57.936 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.1700ms |
+17:57:20.166 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.6140ms |
+17:57:42.401 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.3167ms |
+17:58:04.625 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.8977ms |
+17:58:26.858 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.1044ms |
+17:58:49.087 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.3773ms |
+17:59:11.312 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4188ms |
+17:59:33.548 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.4086ms |
+17:59:55.775 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.9827ms |
+18:00:18.000 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5150ms |
+18:00:40.233 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.7264ms |
+18:01:02.462 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.0424ms |
+18:01:24.686 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.1842ms |
+18:01:46.908 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.6646ms |
+18:02:09.131 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.1234ms |
+18:02:31.355 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5866ms |
+18:02:53.581 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5683ms |
+18:03:15.821 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.7787ms |
+18:03:38.042 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.0698ms |
+18:04:00.278 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.3777ms |
+18:04:22.509 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.7981ms |
+18:04:44.736 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.0171ms |
+18:05:06.964 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.6103ms |
+18:05:29.193 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5970ms |
+18:05:51.420 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8521ms |
+18:06:13.649 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5726ms |
+18:06:35.870 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5847ms |
+18:06:58.097 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5757ms |
+18:07:20.325 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5706ms |
+18:07:42.551 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5782ms |
+18:08:04.778 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5788ms |
+18:08:27.002 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5790ms |
+18:08:49.229 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5742ms |
+18:09:11.456 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.6143ms |
+18:09:33.682 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5788ms |
+18:09:55.908 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.6169ms |
+18:10:18.132 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.6733ms |
+18:10:40.361 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5971ms |
+18:11:02.584 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.6346ms |
+18:11:24.806 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.5956ms |
+18:11:47.031 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9140ms |
+18:12:09.256 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.3512ms |
+18:12:31.482 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.0414ms |
+18:12:53.711 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2868ms |
+18:13:15.935 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2970ms |
+18:13:38.157 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.1867ms |
+18:14:00.384 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.6909ms |
+18:14:22.613 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.9871ms |
+18:14:44.836 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.7663ms |
+18:15:07.059 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.1540ms |
+18:15:29.286 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.7011ms |
+18:15:51.521 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.1585ms |
+18:16:13.745 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.7903ms |
+18:16:35.986 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22240.6733ms |
+18:16:58.212 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.1863ms |
+18:17:20.431 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.1380ms |
+18:17:42.655 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5305ms |
+18:18:04.880 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1001ms |
+18:18:27.104 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.6112ms |
+18:18:49.331 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8579ms |
+18:19:11.557 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.6036ms |
+18:19:33.780 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.1682ms |
+18:19:56.028 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22248.2726ms |
+18:20:18.255 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5773ms |
+18:20:40.479 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.9012ms |
+18:21:02.706 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.6266ms |
+18:21:24.930 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5440ms |
+18:21:47.157 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.3182ms |
+18:22:09.387 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.6416ms |
+18:22:31.609 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.8395ms |
+18:22:53.835 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1051ms |
+18:23:16.062 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8036ms |
+18:23:38.284 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4992ms |
+18:24:00.513 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.3560ms |
+18:24:22.736 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0071ms |
+18:24:44.964 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.1945ms |
+18:25:07.198 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.8791ms |
+18:25:29.428 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.6951ms |
+18:25:51.653 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.9132ms |
+18:26:13.886 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.0352ms |
+18:26:36.111 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.3897ms |
+18:26:58.336 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.4855ms |
+18:27:20.586 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22250.7815ms |
+18:27:42.809 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5132ms |
+18:28:05.036 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5150ms |
+18:28:27.264 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.3599ms |
+18:28:49.490 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.0308ms |
+18:29:11.716 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.4530ms |
+18:29:33.943 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8714ms |
+18:29:56.166 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.6555ms |
+18:30:18.389 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.6035ms |
+18:30:40.612 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0835ms |
+18:31:02.842 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.6943ms |
+18:31:25.070 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.7828ms |
+18:31:47.316 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22245.9404ms |
+18:32:09.542 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1534ms |
+18:32:31.771 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.7264ms |
+18:32:53.998 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5371ms |
+18:33:16.222 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2513ms |
+18:33:38.455 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.8410ms |
+18:34:00.685 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.3988ms |
+18:34:22.909 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4407ms |
+18:34:45.135 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5759ms |
+18:35:07.364 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.0773ms |
+18:35:29.595 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.3401ms |
+18:35:51.824 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.8808ms |
+18:36:14.048 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.3847ms |
+18:36:36.275 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.6656ms |
+18:36:58.518 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22243.3965ms |
+18:37:20.746 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8034ms |
+18:37:42.980 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.6238ms |
+18:38:05.207 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.9637ms |
+18:38:27.448 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22241.4023ms |
+18:38:49.675 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1468ms |
+18:39:11.916 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22241.7701ms |
+18:39:34.142 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4047ms |
+18:39:56.364 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.3988ms |
+18:40:18.588 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.6668ms |
+18:40:40.819 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.0266ms |
+18:41:03.046 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.2044ms |
+18:41:25.271 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.3409ms |
+18:41:47.504 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.7926ms |
+18:42:09.732 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8392ms |
+18:42:31.953 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.3478ms |
+18:42:54.177 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.4453ms |
+18:43:16.400 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0398ms |
+18:43:38.631 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.5677ms |
+18:44:00.854 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0478ms |
+18:44:23.077 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4607ms |
+18:44:45.305 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.9694ms |
+18:45:07.531 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.1369ms |
+18:45:29.766 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.4344ms |
+18:45:52.008 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22241.2292ms |
+18:46:14.240 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.6445ms |
+18:46:36.467 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2259ms |
+18:46:58.698 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4419ms |
+18:47:20.926 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5219ms |
+18:47:43.152 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.8106ms |
+18:48:05.386 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.3397ms |
+18:48:27.617 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.7592ms |
+18:48:49.841 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.1508ms |
+18:49:12.087 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22245.8252ms |
+18:49:34.308 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.4766ms |
+18:49:56.535 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8573ms |
+18:50:18.765 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.2992ms |
+18:50:40.997 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.5432ms |
+18:51:03.220 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.8359ms |
+18:51:25.444 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.4154ms |
+18:51:47.677 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.7434ms |
+18:52:09.907 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.5330ms |
+18:52:32.146 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.7978ms |
+18:52:54.379 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.7972ms |
+18:53:16.605 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.8889ms |
+18:53:38.839 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.0541ms |
+18:54:01.064 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.2406ms |
+18:54:23.299 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.6505ms |
+18:54:45.538 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.7070ms |
+18:55:07.768 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.9693ms |
+18:55:29.999 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.5900ms |
+18:55:52.234 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.3998ms |
+18:56:14.467 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.1890ms |
+18:56:36.703 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.0278ms |
+18:56:58.930 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.5525ms |
+18:57:21.153 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.1339ms |
+18:57:43.377 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.2235ms |
+18:58:05.607 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4114ms |
+18:58:27.828 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.3346ms |
+18:58:50.054 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.2750ms |
+18:59:12.276 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4369ms |
+18:59:34.498 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.8244ms |
+18:59:56.726 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5582ms |
+19:00:18.958 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.7882ms |
+19:00:41.183 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.3187ms |
+19:01:03.413 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.7521ms |
+19:01:25.635 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5179ms |
+19:01:47.861 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9782ms |
+19:02:10.095 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.5401ms |
+19:02:32.321 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4291ms |
+19:02:54.548 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.7233ms |
+19:03:16.772 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.5053ms |
+19:03:39.001 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.9356ms |
+19:04:01.230 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.0111ms |
+19:04:23.461 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.9566ms |
+19:04:45.700 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.2560ms |
+19:05:07.920 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22220.5444ms |
+19:05:30.147 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.5837ms |
+19:05:52.389 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22242.8542ms |
+19:06:14.612 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.3632ms |
+19:06:36.842 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4137ms |
+19:06:59.068 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.0474ms |
+19:07:21.299 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.4673ms |
+19:07:43.526 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8891ms |
+19:08:05.749 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.7187ms |
+19:08:27.979 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.9523ms |
+19:08:50.213 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.8384ms |
+19:09:12.451 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22238.2037ms |
+19:09:34.675 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.7600ms |
+19:09:56.900 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.6782ms |
+19:10:19.126 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.9127ms |
+19:10:41.356 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.3862ms |
+19:11:03.579 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.0542ms |
+19:11:25.814 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.8911ms |
+19:11:48.049 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.5013ms |
+19:12:10.280 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.1330ms |
+19:12:32.509 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.9067ms |
+19:12:54.730 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.7415ms |
+19:13:16.964 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.5293ms |
+19:13:39.196 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.8960ms |
+19:14:01.424 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.2006ms |
+19:14:23.647 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.9007ms |
+19:14:45.872 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.1518ms |
+19:15:08.096 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.3705ms |
+19:15:30.327 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.9498ms |
+19:15:52.554 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.0985ms |
+19:16:14.793 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22239.4539ms |
+19:16:37.018 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.4103ms |
+19:16:59.246 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.4342ms |
+19:17:21.469 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.0689ms |
+19:17:43.694 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.3729ms |
+19:18:05.922 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.3255ms |
+19:18:28.145 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.8815ms |
+19:18:50.390 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22244.1469ms |
+19:19:12.617 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.8256ms |
+19:19:34.845 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.5925ms |
+19:19:57.067 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.4005ms |
+19:20:19.292 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.7822ms |
+19:20:41.514 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.3405ms |
+19:21:03.749 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.6913ms |
+19:21:25.980 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.7744ms |
+19:21:48.209 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.5232ms |
+19:22:10.454 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22245.2677ms |
+19:22:32.680 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.4711ms |
+19:22:54.905 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.4542ms |
+19:23:17.135 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.7077ms |
+19:23:39.359 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22222.5453ms |
+19:24:01.580 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22221.8061ms |
+19:24:23.809 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.4520ms |
+19:24:46.042 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.0103ms |
+19:25:08.279 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22237.1604ms |
+19:25:30.515 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.8996ms |
+19:25:52.745 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22230.6605ms |
+19:26:14.995 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22250.1270ms |
+19:26:37.226 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.2454ms |
+19:26:59.454 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22227.2362ms |
+19:27:21.686 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.0559ms |
+19:27:43.922 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22236.3287ms |
+19:28:06.149 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.6791ms |
+19:28:28.376 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.3980ms |
+19:28:50.611 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.2342ms |
+19:29:12.838 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.8788ms |
+19:29:35.068 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.5990ms |
+19:29:57.298 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.6892ms |
+19:30:19.523 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22225.8272ms |
+19:30:41.762 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22239.2449ms |
+19:31:03.993 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22231.0442ms |
+19:31:26.220 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22226.2073ms |
+19:31:48.452 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22232.4311ms |
+19:32:10.680 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22228.2870ms |
+19:32:32.916 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22235.4619ms |
+19:32:55.141 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22223.7024ms |
+19:33:17.370 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22229.2676ms |
+19:33:39.604 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22233.8477ms |
+19:34:01.838 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22234.9271ms |
+19:34:24.062 | WARN  | Cores.Core_Object | Run | ManualMode_Matrix | CurrentState_Stopped | 22224.0304ms |
+19:34:29.701 | INFO  | Project_Main.FormMain | FormMain_FormClosing | Program Closing |
+19:34:29.701 | INFO  | Project_Main.FormMain | FormMain_FormClosed | Program Closed |

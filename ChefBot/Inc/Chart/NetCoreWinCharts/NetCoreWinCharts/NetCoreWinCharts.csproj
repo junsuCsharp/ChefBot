@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>CSharpChartExplorer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\angry.png" />
+    <None Remove="images\bg.png" />
+    <None Remove="images\clock.png" />
+    <None Remove="images\cloud.png" />
+    <None Remove="images\computer.png" />
+    <None Remove="images\doc.png" />
+    <None Remove="images\gas.png" />
+    <None Remove="images\laugh.png" />
+    <None Remove="images\marble.png" />
+    <None Remove="images\marble2.png" />
+    <None Remove="images\marble3.png" />
+    <None Remove="images\molecule.png" />
+    <None Remove="images\nocomment.png" />
+    <None Remove="images\rain.png" />
+    <None Remove="images\robot1.png" />
+    <None Remove="images\robot2.png" />
+    <None Remove="images\robot3.png" />
+    <None Remove="images\robot4.png" />
+    <None Remove="images\robot5.png" />
+    <None Remove="images\rock.png" />
+    <None Remove="images\sad.png" />
+    <None Remove="images\service.png" />
+    <None Remove="images\small_computer.png" />
+    <None Remove="images\small_molecule.png" />
+    <None Remove="images\small_user.png" />
+    <None Remove="images\smile.png" />
+    <None Remove="images\snow.png" />
+    <None Remove="images\snowy.png" />
+    <None Remove="images\software.png" />
+    <None Remove="images\star.png" />
+    <None Remove="images\sun.png" />
+    <None Remove="images\tile.png" />
+    <None Remove="images\wood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\angry.png" />
+    <EmbeddedResource Include="images\bg.png" />
+    <EmbeddedResource Include="images\clock.png" />
+    <EmbeddedResource Include="images\cloud.png" />
+    <EmbeddedResource Include="images\computer.png" />
+    <EmbeddedResource Include="images\doc.png" />
+    <EmbeddedResource Include="images\gas.png" />
+    <EmbeddedResource Include="images\laugh.png" />
+    <EmbeddedResource Include="images\marble.png" />
+    <EmbeddedResource Include="images\marble2.png" />
+    <EmbeddedResource Include="images\marble3.png" />
+    <EmbeddedResource Include="images\molecule.png" />
+    <EmbeddedResource Include="images\nocomment.png" />
+    <EmbeddedResource Include="images\rain.png" />
+    <EmbeddedResource Include="images\robot1.png" />
+    <EmbeddedResource Include="images\robot2.png" />
+    <EmbeddedResource Include="images\robot3.png" />
+    <EmbeddedResource Include="images\robot4.png" />
+    <EmbeddedResource Include="images\robot5.png" />
+    <EmbeddedResource Include="images\rock.png" />
+    <EmbeddedResource Include="images\sad.png" />
+    <EmbeddedResource Include="images\service.png" />
+    <EmbeddedResource Include="images\small_computer.png" />
+    <EmbeddedResource Include="images\small_molecule.png" />
+    <EmbeddedResource Include="images\small_user.png" />
+    <EmbeddedResource Include="images\smile.png" />
+    <EmbeddedResource Include="images\snow.png" />
+    <EmbeddedResource Include="images\snowy.png" />
+    <EmbeddedResource Include="images\software.png" />
+    <EmbeddedResource Include="images\star.png" />
+    <EmbeddedResource Include="images\sun.png" />
+    <EmbeddedResource Include="images\tile.png" />
+    <EmbeddedResource Include="images\wood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChartDirector.Net.Desktop.Controls" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Obj_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <iMaxOil>6</iMaxOil>
+  <iMaxMeck>3</iMaxMeck>
+  <iMaxDevice>6</iMaxDevice>
+  <Device_IP>
+    <string>192.168.0.105</string>
+    <string>192.168.0.106</string>
+    <string>192.168.0.107</string>
+    <string>192.168.0.108</string>
+    <string>192.168.0.109</string>
+    <string>192.168.0.110</string>
+  </Device_IP>
+  <Device_Name>
+    <string>X-Axis Motor</string>
+    <string>EzEtherNetIO_1</string>
+    <string>EzEtherNetIO_2</string>
+    <string>EzEtherNetIO_3</string>
+    <string>EzEtherNetIO_4</string>
+    <string>Doosan Robot</string>
+  </Device_Name>
+  <Local_IP>
+    <string>127.0.0.1</string>
+  </Local_IP>
+  <tsPauseSetMinTime>0</tsPauseSetMinTime>
+  <tsPauseSetSecTime>5</tsPauseSetSecTime>
+  <tsChikenSetMinTime>
+    <int>3</int>
+    <int>7</int>
+    <int>3</int>
+    <int>4</int>
+    <int>15</int>
+    <int>5</int>
+  </tsChikenSetMinTime>
+  <tsChikenSetSecTime>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>10</int>
+    <int>0</int>
+    <int>0</int>
+  </tsChikenSetSecTime>
+  <lstOilMeckUse>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </lstOilMeckUse>
+  <lstOilCheckdCount>
+    <int>30</int>
+    <int>30</int>
+    <int>30</int>
+  </lstOilCheckdCount>
+  <lstOilTemperature>
+    <int>180</int>
+    <int>180</int>
+    <int>180</int>
+  </lstOilTemperature>
+  <lstLoaderName>
+    <string>Load A</string>
+    <string>Load B</string>
+    <string>Load C</string>
+  </lstLoaderName>
+  <lstFryerName>
+    <string>Cookware A</string>
+    <string>Cookware B</string>
+    <string>Cookware C</string>
+  </lstFryerName>
+  <lstLoaderSetIO>
+    <string>IN</string>
+    <string>OUT</string>
+    <string>OUT</string>
+  </lstLoaderSetIO>
+  <lstCookerName>
+    <string>Cooker 1-1</string>
+    <string>Cooker 1-2</string>
+    <string>Cooker 2-1</string>
+    <string>Cooker 2-2</string>
+    <string>Cooker 3-1</string>
+    <string>Cooker 3-2</string>
+  </lstCookerName>
+  <iMaxOperation>6</iMaxOperation>
+  <iCobotSpeed>100</iCobotSpeed>
+  <iXaxisSpeed>100</iXaxisSpeed>
+  <iXaxisAccDecTime>750</iXaxisAccDecTime>
+  <iLoadDelayTime>3</iLoadDelayTime>
+  <iUnLoadDelayTime>3</iUnLoadDelayTime>
+  <iBasketDelayTime>10</iBasketDelayTime>
+  <iSwitch1SetTimeMin>8</iSwitch1SetTimeMin>
+  <iSwitch1SetTimeSec>0</iSwitch1SetTimeSec>
+  <iSwitch2SetTimeMin>11</iSwitch2SetTimeMin>
+  <iSwitch2SetTimeSec>0</iSwitch2SetTimeSec>
+  <lstOperRecipeName>
+    <string>코봇 스피드</string>
+    <string>엑스 축 스피드</string>
+    <string>엑스 축 가감속</string>
+    <string>투입 지연 시간</string>
+    <string>배출 지연 시간</string>
+    <string>기름 빼기 지연 시간</string>
+    <string>NULL</string>
+    <string>NULL</string>
+    <string>NULL</string>
+  </lstOperRecipeName>
+  <lstOperRecipeRange>
+    <string>1 ~ 100</string>
+    <string>1 ~ 100</string>
+    <string>200 ~ 750</string>
+    <string>0 ~ 9</string>
+    <string>0 ~ 9</string>
+    <string>0 ~ 9</string>
+    <string>0 ~ 60</string>
+    <string>1 ~ 15</string>
+    <string>0 ~ 60</string>
+  </lstOperRecipeRange>
+  <lstOperRecipeUnit>
+    <string>%</string>
+    <string>%</string>
+    <string>초</string>
+    <string>초</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+  </lstOperRecipeUnit>
+  <iMaxOption>11</iMaxOption>
+  <iLanguage>0</iLanguage>
+  <iXaxisControl>1</iXaxisControl>
+  <iBasketShaking>1</iBasketShaking>
+  <iBasketShakingCount>10</iBasketShakingCount>
+  <dBasketWeight>4</dBasketWeight>
+  <iMidShakingCount>10</iMidShakingCount>
+  <iMidOtwoShower>10</iMidOtwoShower>
+  <iGripperUse>1</iGripperUse>
+  <iAutoMode>1</iAutoMode>
+  <iManualMode>0</iManualMode>
+  <iLaserScannerUse>0</iLaserScannerUse>
+  <iAutoClear>0</iAutoClear>
+  <iRecipeDownload>0</iRecipeDownload>
+  <iSyncModbus>1</iSyncModbus>
+  <iOilDrainUse>0</iOilDrainUse>
+  <iOilDrainCount>10</iOilDrainCount>
+  <iTechingUse>0</iTechingUse>
+  <iTechingInt>0</iTechingInt>
+  <iGripperModel>0</iGripperModel>
+  <lstOptionName>
+    <string>표시 언어</string>
+    <string>엑스축 제어</string>
+    <string>레이저 스캐너 사용</string>
+    <string>그리퍼 사용</string>
+    <string>바스켓 흔들기</string>
+    <string>바스켓 흔들기 회수</string>
+    <string>기름 빼기 사용</string>
+    <string>기름 빼기 회수</string>
+    <string>바스켓 무게</string>
+    <string>조리중 바스켓 흔들기 회수</string>
+    <string>얼라인 바 계산 사용</string>
+    <string />
+  </lstOptionName>
+  <lstOptionRange>
+    <string>1 / 0</string>
+    <string>1 / 0</string>
+    <string>1 / 0</string>
+    <string>1 / 0</string>
+    <string>1 / 0</string>
+    <string>0 / 10</string>
+    <string>1 / 0</string>
+    <string>0 / 10</string>
+    <string>0 ~ 1.5</string>
+    <string>0 / 10</string>
+    <string>1 / 0</string>
+  </lstOptionRange>
+  <lstOptionUnit>
+    <string>영어 / 한국어</string>
+    <string>예 / 아니오</string>
+    <string>사용 / 미사용</string>
+    <string>사용 / 미사용</string>
+    <string>사용 / 미사용</string>
+    <string>횟수</string>
+    <string>사용 / 미사용</string>
+    <string>회수</string>
+    <string>Kg</string>
+    <string>횟수</string>
+    <string>사용 / 미사용</string>
+  </lstOptionUnit>
+  <iMaxExOption>11</iMaxExOption>
+  <iBasketShakingSetMinTime>0</iBasketShakingSetMinTime>
+  <iBasketShakingSetSecTime>0</iBasketShakingSetSecTime>
+  <iBasketOxzenSetMinTime>0</iBasketOxzenSetMinTime>
+  <iBasketOxzenSetSecTime>0</iBasketOxzenSetSecTime>
+  <inputdelayMintime>0</inputdelayMintime>
+  <inputdelaySectime>0</inputdelaySectime>
+  <strExOptionNames>
+    <string>조리 중 흔들기 시간 (분)</string>
+    <string>조리 중 흔들기 시간 (초)</string>
+    <string>조리 중 산소 입히기 시간 (분)</string>
+    <string>조리 중 산소 입히기 시간 (초)</string>
+    <string>투입 지연 시간 (분)</string>
+    <string>투입 지연 시간 (초)</string>
+    <string>1번 투입구 조리 시간(분)</string>
+    <string>1번 투입구 조리 시간(초)</string>
+    <string>2번 투입구 조리 시간(분)</string>
+    <string>2번 투입구 조리 시간(초)</string>
+    <string>조리 중 산소 입히기 시간(초)</string>
+  </strExOptionNames>
+  <strExOptionRanges>
+    <string>1 ~ 5</string>
+    <string>0 ~ 60</string>
+    <string>1 ~ 5</string>
+    <string>0 ~ 60</string>
+    <string>1 ~ 5</string>
+    <string>0 ~ 60</string>
+    <string>1 ~ 15</string>
+    <string>1 ~ 60</string>
+    <string>1 ~ 15</string>
+    <string>1 ~ 60</string>
+    <string>1 / 10</string>
+  </strExOptionRanges>
+  <strExOptionUnits>
+    <string>분</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+    <string>분</string>
+    <string>초</string>
+    <string>초</string>
+  </strExOptionUnits>
+  <iOffsetTime>
+    <int>2</int>
+    <int>3</int>
+    <int>4</int>
+    <int>5</int>
+    <int>6</int>
+    <int>7</int>
+  </iOffsetTime>
+  <strArrayExcuteFlagDesc>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </strArrayExcuteFlagDesc>
+  <strArrayIdleFlagDesc>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </strArrayIdleFlagDesc>
+  <strArrayStartFlagDesc>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </strArrayStartFlagDesc>
+  <strArrayStopFlagDesc>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </strArrayStopFlagDesc>
+  <strArrayAbortFlagDesc>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </strArrayAbortFlagDesc>
+</Obj_File>

@@ -1,0 +1,67 @@
+18:04:53.580 | INFO  | Project_Main.FormMain | Form1_Load | Database Init |
+18:04:53.604 | INFO  | Project_Main.FormMain | Form1_Load | Object Init |
+18:04:53.614 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Stopped |
+18:04:53.614 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : False | 017.0000ms |
+18:04:53.636 | INFO  | Forms.FormConfigs | .ctor |
+18:04:53.658 | INFO  | Forms.FormExcute | .ctor |
+18:04:53.700 | INFO  | Forms.FormDIO | .ctor |
+18:04:53.716 | INFO  | Cores.Core_Object | Run | eGripper ZIMMER |
+18:04:53.716 | INFO  | Cores.Core_Object | Run | eCUSTOM Demo |
+18:04:53.745 | INFO  | Forms.FormInfo | .ctor |
+18:04:53.747 | INFO  | Forms.FormAlarm | .ctor |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  22.07:34:54.8610000 |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  15.23:50:09.3970000 |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [Robot] :  1.22:01:19.6510000 |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  22.07:34:53.6990000 |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  15.23:50:09.3970000 |
+18:04:53.805 | INFO  | Cores.Core_Object | Run | GetCounters [OilChange] :  1.22:01:19.6510000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  22.07:16:37.0330000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  15.23:50:09.3970000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [CookChange] :  1.22:01:19.6510000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  22.07:34:54.8610000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  15.23:50:09.3970000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | GetCounters [AirFilter] :  1.22:01:19.6510000 |
+18:04:53.809 | INFO  | Cores.Core_Object | Run | ROBOT : DOOSAN | IP : 192.168.0.110 | IsConnectFasMotion : True |
+18:04:53.828 | INFO  | Cores.Core_Object | Run | FASTECH : Board ID 0 : TYPE= 11, Version= Ezi-MOTIONLINK2 Plus-E (V06.03.031.13) | IP : 192.168.0.105 | IsConnectFasMotion : True |
+18:04:53.828 | INFO  | Cores.Core_Object | Run | FASTECH : Board ID 1 : TYPE= 156, Version= Ezi-IO Ethernet (V06.01.010.10) | IP : 192.168.0.106 | IsConnectFasMotion : True |
+18:04:53.854 | INFO  | Cores.Core_Object | Run | FASTECH : Board ID 2 : TYPE= 156, Version= Ezi-IO Ethernet (V06.01.010.10) | IP : 192.168.0.107 | IsConnectFasMotion : True |
+18:04:53.881 | INFO  | Cores.Core_Object | Run | FASTECH : Board ID 3 : TYPE= 156, Version= Ezi-IO Ethernet (V06.01.010.10) | IP : 192.168.0.108 | IsConnectFasMotion : True |
+18:04:53.899 | INFO  | Cores.Core_Object | Run | FASTECH : Board ID 4 : TYPE= 156, Version= Ezi-IO Ethernet (V06.01.010.10) | IP : 192.168.0.109 | IsConnectFasMotion : True |
+18:04:54.141 | WARN  | Cores.Core_StepModule | X_Axis_Override | Axis Speed : 100 |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | Display Init |
+18:04:54.778 | INFO  | Project_Main.FormMain | radioButton5_CheckedChanged | Event(RB) DashBoard |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | List Button Init |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | GUI Init |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | Timer Worker |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | Default Location |
+18:04:54.778 | INFO  | Project_Main.FormMain | asyncPingCheck |
+18:04:54.778 | INFO  | Project_Main.FormMain | Form1_Load | Load Complted |
+18:04:54.795 | INFO  | Project_Main.FormMain | Form1_Load | Console Init |
+18:04:54.795 | INFO  | Project_Main.FormMain | DatabaseRead | m_CobotDB Database Delete ::: True |
+18:04:54.795 | INFO  | Project_Main.FormMain | DatabaseRead | m_MaintDB Database Delete ::: True |
+18:04:55.218 | FATAL | Cores.Core_Object | | SAFETORQUE | 로봇에 충돌이 감지 되었습니다.| High |
+18:04:55.218 | WARN  | PackML.ClsPackML | Progress| Normal | 1610.3049ms |
+18:04:55.288 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Aborting |
+18:04:55.288 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : True | 061.0000ms |
+18:04:55.297 | DEBUG | Project_Main.FormMain | Work_DateTime | 259 Robot State					      3 |
+18:04:55.323 | INFO  | Forms.FormErrorBox | .ctor |
+18:04:55.348 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Aborted |
+18:04:55.348 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : False | 046.0000ms |
+18:04:55.372 | WARN  | Project_Main.FormMain |                              Work_DateTime | 2539.1558ms |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Chiken] :  00:04:20.2311163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Chiken] :  00:04:20.2311163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Chiken] :  00:04:20.2311163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Robot] :  22.07:39:15.0921163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Robot] :  15.23:54:29.6281163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [Robot] :  1.22:05:39.8821163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [OilChange] :  22.07:39:13.9301163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [OilChange] :  15.23:54:29.6281163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [OilChange] :  1.22:05:39.8821163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [CookChange] :  22.07:20:57.2641163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [CookChange] :  15.23:54:29.6281163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [CookChange] :  1.22:05:39.8821163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [AirFilter] :  22.07:39:15.0921163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [AirFilter] :  15.23:54:29.6281163 |
+18:04:57.346 | INFO  | Project_Main.FormMain | FormMain_FormClosing | GetCounters [AirFilter] :  1.22:05:39.8821163 |
+18:04:57.395 | INFO  | Project_Main.FormMain | FormMain_FormClosing | Program Closing |
+18:04:57.395 | INFO  | Project_Main.FormMain | FormMain_FormClosed | Program Closed |

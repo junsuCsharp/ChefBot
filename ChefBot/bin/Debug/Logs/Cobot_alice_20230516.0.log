@@ -1,0 +1,3 @@
+19:04:05.627 | INFO  | Project_Main.FormMain | Form1_Load | Database Init |
+19:04:05.688 | INFO  | Cores.Core_Object | StepModuleCore_Action_Complted | ManualMode_Matrix | CurrentState_Stopped |
+19:04:05.688 | INFO  | PackML.ClsPackML | Progress| IsCurrentStateChanged : False | 049.0000ms |
